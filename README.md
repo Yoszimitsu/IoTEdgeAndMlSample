@@ -23,3 +23,8 @@ The detailed walk-through instructions for this sample can be found at <https://
 ## Feedback
 
 If you have problems with this sample, please post an issue in this repository.
+
+## Notes
+
+- Sku "rs5-pro" is not availbale anymore. I was change to "21h1-pro" Windows version.
+- It's necessary to check Quota for Azure region, becasue "Standard_D8s_v3" had to much cores (8) for that region and exceeded the limit. I've changed on "Standard_A2m_v2" VM.
